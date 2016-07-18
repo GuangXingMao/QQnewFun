@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Design">
+        <item android:id="@+id/nav_tab" android:title="tab" android:icon="@drawable/heart"/>
+        <item android:id="@+id/nav_tabvp1" android:title="tab+vp1" android:icon="@drawable/search"/>
+        <item android:id="@+id/nav_tabvp2" android:title="tab+vp2" android:icon="@drawable/msg"/>
+        <item  android:id="@+id/nav_til" android:title="TextInputLayout" android:icon="@drawable/refresh"/>
+        <item  android:id="@+id/nav_fab_snack" android:title="FAB+SnackBar" android:icon="@drawable/search"/>
+        <item  android:id="@+id/nav_coor_fab_snack" android:title="Coor+FAB+SnackBar" android:icon="@drawable/search"/>
+        <item  android:id="@+id/nav_coor_appbar" android:title="Coor+appbar" android:icon="@drawable/search"/>
+        <item  android:id="@+id/nav_coor_coll" android:title="Coor+Collapsing" android:icon="@drawable/search"/>
+    </item>
+    <item  android:title="AndroidM">
+        <menu>
+            <item android:id="@+id/nav_permission" android:title="权限" android:icon="@drawable/heart"/>
+            <item android:id="@+id/nav_http" android:title="OkHttp" android:icon="@drawable/search"/>
+        </menu>
+    </item>
+    <item android:title="AppBar">
+        <menu>
+
+            <item android:id="@+id/nav_acionbar" android:title="ActionBar" android:icon="@drawable/msg"/>
+            <item android:id="@+id/nav_toolbar" android:title="ToolBar" android:icon="@drawable/refresh"/>
+        </menu>
+    </item>
+
+</menu>

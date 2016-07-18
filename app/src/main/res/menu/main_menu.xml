@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/menu_search"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:icon="@drawable/search"
+        android:title="搜索"/>
+    <item
+        app:showAsAction="never"
+        android:id="@+id/menu_heart"
+        android:icon="@drawable/heart"
+        android:title="收藏"/>
+    <item
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/msg"
+        android:title="消息"/>
+    <item
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/refresh"
+        android:title="刷新"/>
+    <item android:title="Group" app:showAsAction="always">
+        <menu>
+            <group android:checkableBehavior="all">
+                <item
+                    android:icon="@drawable/search"
+                    android:title="搜索"/>
+                <item
+
+                    android:icon="@drawable/heart"
+                    android:title="收藏"/>
+                <item
+
+                    android:icon="@drawable/msg"
+                    android:title="消息"/>
+                <item
+
+                    android:icon="@drawable/refresh"
+                    android:title="刷新"/>
+            </group>
+        </menu>
+
+    </item>
+</menu>
